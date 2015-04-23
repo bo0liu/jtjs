@@ -1,0 +1,173 @@
+﻿$axure.loadCurrentPage({
+  "url":"购买需求确认模板页面.html",
+  "generationDate":new Date(1429794605405.99),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"05b2aa0bf6cf4658b19d544b087cd9a6",
+    "type":"Axure:Page",
+    "name":"购买需求确认模板页面",
+    "notes":{
+      "默认":"<p><span>点击ID查看 买 / 卖方的&nbsp;&nbsp; 个人详情页。</span></p>"},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"7613812243014506b4b1e13fd4bbec5e",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":320,
+              "height":568}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"57fc40e7bcdf4928840b8b5650d3f274",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":320,
+                  "height":568}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/购买需求确认模板页面/u0.png"}},
+{
+          "id":"a20e9833ca534a94b44089ba444cbbf6",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "opacity":"0",
+            "location":{
+              "x":237,
+              "y":458},
+            "size":{
+              "width":83,
+              "height":48}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"9c2d1a5b1e224f95bbb6b837b3e51758",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "opacity":"0",
+                "location":{
+                  "x":237,
+                  "y":458},
+                "size":{
+                  "width":83,
+                  "height":48}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 购买请求确认页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"购买请求确认页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"5c4000793a194707bd25ec61b150c9c1",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "opacity":"0",
+            "location":{
+              "x":237,
+              "y":514},
+            "size":{
+              "width":80,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e1eff46e49544de09eb8a32b66a007ba",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "opacity":"0",
+                "location":{
+                  "x":237,
+                  "y":514},
+                "size":{
+                  "width":80,
+                  "height":50}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 购买需求确认模板页面",
+                      "target":{
+                        "targetType":"page",
+                        "url":"购买需求确认模板页面.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "7613812243014506b4b1e13fd4bbec5e":{
+      "scriptId":"u0"},
+    "57fc40e7bcdf4928840b8b5650d3f274":{
+      "scriptId":"u1"},
+    "a20e9833ca534a94b44089ba444cbbf6":{
+      "scriptId":"u2"},
+    "9c2d1a5b1e224f95bbb6b837b3e51758":{
+      "scriptId":"u3"},
+    "5c4000793a194707bd25ec61b150c9c1":{
+      "scriptId":"u4"},
+    "e1eff46e49544de09eb8a32b66a007ba":{
+      "scriptId":"u5"}}});

@@ -1,0 +1,293 @@
+﻿$axure.loadCurrentPage({
+  "url":"首页.html",
+  "generationDate":new Date(1429794605015.97),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"8ac5ab7776704ada83176f61f88343ab",
+    "type":"Axure:Page",
+    "name":"首页",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+      "onClick":{
+        "description":"OnClick",
+        "cases":[{
+            "description":"用例 1",
+            "isNewIfGroup":false,
+            "actions":[{
+                "action":"linkWindow",
+                "description":"在 当前窗口 打开 【我的】页面（新注册）",
+                "target":{
+                  "targetType":"page",
+                  "url":"【我的】页面（新注册）.html",
+                  "includeVariables":true},
+                "linkType":"current"}]}]}},
+    "diagram":{
+      "objects":[{
+          "id":"ccb7416c5cbe415084dc9311a0441f11",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":320,
+              "height":568}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"799a30ddafaf4a14939e598a442108c4",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":320,
+                  "height":568}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/首页/u0.png"}},
+{
+          "id":"4fe1e760caa348afb7c58bfee1a2085a",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":15,
+              "y":36},
+            "size":{
+              "width":22,
+              "height":12}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c9fc2f373d294b818d3eaac295735678",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":15,
+                  "y":36},
+                "size":{
+                  "width":22,
+                  "height":12}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 左侧边栏",
+                      "target":{
+                        "targetType":"page",
+                        "url":"左侧边栏.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/左侧边栏/u2.png"}},
+{
+          "id":"13578f64d51f4e1abc13c046a15a1388",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":289,
+              "y":35},
+            "size":{
+              "width":16,
+              "height":15}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e419afe412c1461ab9b802f7c0bb020b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":289,
+                  "y":35},
+                "size":{
+                  "width":16,
+                  "height":15}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 搜索页&amp;切换城市",
+                      "target":{
+                        "targetType":"page",
+                        "url":"搜索页_切换城市.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/首页/u4.png"}},
+{
+          "id":"31f5e7d6d8764e639bc015753d027ccd",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "opacity":"0",
+            "location":{
+              "x":41,
+              "y":262},
+            "size":{
+              "width":39,
+              "height":37},
+            "borderWidth":"-1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"532df9c4106b4fbb91fd82da9445fcca",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "opacity":"0",
+                "location":{
+                  "x":41,
+                  "y":262},
+                "size":{
+                  "width":39,
+                  "height":37},
+                "borderWidth":"-1"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 地图导航页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"地图导航页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"00449c80f5c04a5eac1ea93c84c7ef0b",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "opacity":"0",
+            "location":{
+              "x":86,
+              "y":262},
+            "size":{
+              "width":124,
+              "height":37},
+            "borderWidth":"-1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"afde0094e51d4192b08971609549b371",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "opacity":"0",
+                "location":{
+                  "x":86,
+                  "y":262},
+                "size":{
+                  "width":124,
+                  "height":37},
+                "borderWidth":"-1"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 商户详情页（交易中）",
+                      "target":{
+                        "targetType":"page",
+                        "url":"商户详情页（交易中）.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "ccb7416c5cbe415084dc9311a0441f11":{
+      "scriptId":"u0"},
+    "799a30ddafaf4a14939e598a442108c4":{
+      "scriptId":"u1"},
+    "4fe1e760caa348afb7c58bfee1a2085a":{
+      "scriptId":"u2"},
+    "c9fc2f373d294b818d3eaac295735678":{
+      "scriptId":"u3"},
+    "13578f64d51f4e1abc13c046a15a1388":{
+      "scriptId":"u4"},
+    "e419afe412c1461ab9b802f7c0bb020b":{
+      "scriptId":"u5"},
+    "31f5e7d6d8764e639bc015753d027ccd":{
+      "scriptId":"u6"},
+    "532df9c4106b4fbb91fd82da9445fcca":{
+      "scriptId":"u7"},
+    "00449c80f5c04a5eac1ea93c84c7ef0b":{
+      "scriptId":"u8"},
+    "afde0094e51d4192b08971609549b371":{
+      "scriptId":"u9"}}});

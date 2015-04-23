@@ -1,0 +1,296 @@
+﻿$axure.loadCurrentPage({
+  "url":"我关注的商户.html",
+  "generationDate":new Date(1429794607455.11),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"8476788a273a49a2a38f532a3bd1da9a",
+    "type":"Axure:Page",
+    "name":"我关注的商户",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"534681c6578f4615a7ec15c19ed836f3",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":320,
+              "height":568}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a6af95ac80794bdd86d1c5abbdfc5eef",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":320,
+                  "height":568}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 我的劲态（二维码）",
+                      "target":{
+                        "targetType":"page",
+                        "url":"我的劲态（二维码）.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/我关注的商户/u0.png"}},
+{
+          "id":"5195b1a223d349129ad5a69a8c59630b",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "opacity":"0",
+            "location":{
+              "x":120,
+              "y":68},
+            "size":{
+              "width":190,
+              "height":90}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3efd4b8d0d174afd9a249ab1cbf668a3",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "opacity":"0",
+                "location":{
+                  "x":120,
+                  "y":68},
+                "size":{
+                  "width":190,
+                  "height":90}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 商户详情页（交易中）",
+                      "target":{
+                        "targetType":"page",
+                        "url":"商户详情页（交易中）.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"36febbe9fcc14b2e8ebb463216c0414a",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "opacity":"0",
+            "location":{
+              "x":120,
+              "y":168},
+            "size":{
+              "width":190,
+              "height":90}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0dcaaec84f14402d9fd84ee834500e71",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "opacity":"0",
+                "location":{
+                  "x":120,
+                  "y":168},
+                "size":{
+                  "width":190,
+                  "height":90}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 商户详情页（交易中）",
+                      "target":{
+                        "targetType":"page",
+                        "url":"商户详情页（交易中）.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"56f1ab96616e46da8dad0e2aff692cd6",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "opacity":"0",
+            "location":{
+              "x":120,
+              "y":268},
+            "size":{
+              "width":190,
+              "height":90}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"651ab93deea74b4f9a6e1d75468ce1a3",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "opacity":"0",
+                "location":{
+                  "x":120,
+                  "y":268},
+                "size":{
+                  "width":190,
+                  "height":90}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 商户详情页（交易中）",
+                      "target":{
+                        "targetType":"page",
+                        "url":"商户详情页（交易中）.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"f5f3e1e31e5140038e3af8d76b89350a",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "opacity":"0",
+            "location":{
+              "x":120,
+              "y":368},
+            "size":{
+              "width":190,
+              "height":90}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8c20a40bd80448f0be9f308e8d53ce57",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "opacity":"0",
+                "location":{
+                  "x":120,
+                  "y":368},
+                "size":{
+                  "width":190,
+                  "height":90}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 商户详情页（交易中）",
+                      "target":{
+                        "targetType":"page",
+                        "url":"商户详情页（交易中）.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "534681c6578f4615a7ec15c19ed836f3":{
+      "scriptId":"u0"},
+    "a6af95ac80794bdd86d1c5abbdfc5eef":{
+      "scriptId":"u1"},
+    "5195b1a223d349129ad5a69a8c59630b":{
+      "scriptId":"u2"},
+    "3efd4b8d0d174afd9a249ab1cbf668a3":{
+      "scriptId":"u3"},
+    "36febbe9fcc14b2e8ebb463216c0414a":{
+      "scriptId":"u4"},
+    "0dcaaec84f14402d9fd84ee834500e71":{
+      "scriptId":"u5"},
+    "56f1ab96616e46da8dad0e2aff692cd6":{
+      "scriptId":"u6"},
+    "651ab93deea74b4f9a6e1d75468ce1a3":{
+      "scriptId":"u7"},
+    "f5f3e1e31e5140038e3af8d76b89350a":{
+      "scriptId":"u8"},
+    "8c20a40bd80448f0be9f308e8d53ce57":{
+      "scriptId":"u9"}}});

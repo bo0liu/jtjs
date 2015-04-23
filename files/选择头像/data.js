@@ -1,0 +1,80 @@
+﻿$axure.loadCurrentPage({
+  "url":"选择头像.html",
+  "generationDate":new Date(1429794606803.07),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"305a6c5bcf21464080739697f15a8f8a",
+    "type":"Axure:Page",
+    "name":"选择头像",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"eba2458d20624d8b84bc655e2675a001",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":320,
+              "height":568}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"54d27b893a1346f8b538f8bf49ebc783",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":320,
+                  "height":568}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 【我的】页面（已编辑头像）",
+                      "target":{
+                        "targetType":"page",
+                        "url":"【我的】页面（已编辑头像）.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/选择头像/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "eba2458d20624d8b84bc655e2675a001":{
+      "scriptId":"u0"},
+    "54d27b893a1346f8b538f8bf49ebc783":{
+      "scriptId":"u1"}}});

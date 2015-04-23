@@ -1,0 +1,369 @@
+﻿$axure.loadCurrentPage({
+  "url":"发起购买请求页.html",
+  "generationDate":new Date(1429794605362.99),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"c6ff7140c12140c7b74b03f6dd5e4637",
+    "type":"Axure:Page",
+    "name":"发起购买请求页",
+    "notes":{
+      "默认":"<p><span>1.价格输入框限制1~999.</span></p><p><span>2.15点以后 ，出售时间从第二开始计算。</span></p>"},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"fa5c89d8da1245f49578870a4d2adec4",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":320,
+              "height":568}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2a2bb45b30b942ef86ca0e1be72f157f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":320,
+                  "height":568}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/发起购买请求页/u0.png"}},
+{
+          "id":"f72c1e3bbfd74de79143369b9f400ccc",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "opacity":"0",
+            "size":{
+              "width":110,
+              "height":568}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0c6cce03572042cba118a0843b476dd8",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "opacity":"0",
+                "size":{
+                  "width":110,
+                  "height":568}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 买时间",
+                      "target":{
+                        "targetType":"page",
+                        "url":"买时间.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"c049e20e2da14aefb817576a1fe4bd72",
+          "label":"买时间选择日期",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":0,
+              "y":352},
+            "size":{
+              "width":320,
+              "height":216},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"38370a44169a4cc0afc004e43626c104",
+              "label":"State1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"26662fa90b7d4262941d37241a53abdf",
+                  "label":"",
+                  "parentDynamicPanel":"c049e20e2da14aefb817576a1fe4bd72",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":320,
+                      "height":216}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"309852cc47eb422c9905e2d5a624e9c2",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"c049e20e2da14aefb817576a1fe4bd72",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":320,
+                          "height":216}},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"linkWindow",
+                              "description":"在 当前窗口 打开 购买需求确认模板页面",
+                              "target":{
+                                "targetType":"page",
+                                "url":"购买需求确认模板页面.html",
+                                "includeVariables":true},
+                              "linkType":"current"}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/发起购买请求页/u5.png"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"9cfe2761d17942bd935dcf6879d48a23",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "opacity":"0",
+            "location":{
+              "x":120,
+              "y":191},
+            "size":{
+              "width":190,
+              "height":58}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"9a88733c767746fb93497a367f6badbe",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "opacity":"0",
+                "location":{
+                  "x":120,
+                  "y":191},
+                "size":{
+                  "width":190,
+                  "height":58}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 买时间选择日期 向上滑动 500 毫秒,<br>(Image) 向上滑动 500 毫秒",
+                      "objectsToFades":[{
+                          "objectPath":["c049e20e2da14aefb817576a1fe4bd72"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "easing":"slideUp",
+                              "duration":500,
+                              "showType":"none"}}},
+{
+                          "objectPath":["26662fa90b7d4262941d37241a53abdf"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "easing":"slideUp",
+                              "duration":500,
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"5d38dea16c5443a29f8b708867c44aea",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "opacity":"0",
+            "location":{
+              "x":237,
+              "y":458},
+            "size":{
+              "width":83,
+              "height":48}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"7e6cad4b739e4d1fbcc7e2cecfb259cf",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "opacity":"0",
+                "location":{
+                  "x":237,
+                  "y":458},
+                "size":{
+                  "width":83,
+                  "height":48}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 购买请求确认页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"购买请求确认页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"c2714f7748ca4e24b2739dfbc5e158bf",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "opacity":"0",
+            "location":{
+              "x":237,
+              "y":514},
+            "size":{
+              "width":80,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"9a6aa652cfbe45c38abf4d50cd0ec44f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "opacity":"0",
+                "location":{
+                  "x":237,
+                  "y":514},
+                "size":{
+                  "width":80,
+                  "height":50}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 发起购买请求页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"发起购买请求页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "fa5c89d8da1245f49578870a4d2adec4":{
+      "scriptId":"u0"},
+    "2a2bb45b30b942ef86ca0e1be72f157f":{
+      "scriptId":"u1"},
+    "f72c1e3bbfd74de79143369b9f400ccc":{
+      "scriptId":"u2"},
+    "0c6cce03572042cba118a0843b476dd8":{
+      "scriptId":"u3"},
+    "c049e20e2da14aefb817576a1fe4bd72":{
+      "scriptId":"u4"},
+    "26662fa90b7d4262941d37241a53abdf":{
+      "scriptId":"u5"},
+    "309852cc47eb422c9905e2d5a624e9c2":{
+      "scriptId":"u6"},
+    "9cfe2761d17942bd935dcf6879d48a23":{
+      "scriptId":"u7"},
+    "9a88733c767746fb93497a367f6badbe":{
+      "scriptId":"u8"},
+    "5d38dea16c5443a29f8b708867c44aea":{
+      "scriptId":"u9"},
+    "7e6cad4b739e4d1fbcc7e2cecfb259cf":{
+      "scriptId":"u10"},
+    "c2714f7748ca4e24b2739dfbc5e158bf":{
+      "scriptId":"u11"},
+    "9a6aa652cfbe45c38abf4d50cd0ec44f":{
+      "scriptId":"u12"}}});

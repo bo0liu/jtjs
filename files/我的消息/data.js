@@ -1,0 +1,80 @@
+﻿$axure.loadCurrentPage({
+  "url":"我的消息.html",
+  "generationDate":new Date(1429794607397.1),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"d6d0d89646e04f8fb33e0e422e4a9d86",
+    "type":"Axure:Page",
+    "name":"我的消息",
+    "notes":{
+      "默认":"<p><span>（站内信推送+短信通知）</span></p>"},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"f279cbedaf634b63b30d13ba5e4e605f",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":320,
+              "height":568}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0a7155ef05ee4959a7780a1cd5e7ac9d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":320,
+                  "height":568}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 我的劲态（二维码）",
+                      "target":{
+                        "targetType":"page",
+                        "url":"我的劲态（二维码）.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/我的消息/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "f279cbedaf634b63b30d13ba5e4e605f":{
+      "scriptId":"u0"},
+    "0a7155ef05ee4959a7780a1cd5e7ac9d":{
+      "scriptId":"u1"}}});

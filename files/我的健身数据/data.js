@@ -1,0 +1,80 @@
+﻿$axure.loadCurrentPage({
+  "url":"我的健身数据.html",
+  "generationDate":new Date(1429794607248.1),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"5a76c5a6123241cea20d1b4e5691c731",
+    "type":"Axure:Page",
+    "name":"我的健身数据",
+    "notes":{
+      "默认":"<p><span>1.改头像</span></p><p><span>2.改昵称，有昵称显示昵称，没有昵称显示ID</span></p><p><span>3.身高</span></p><p><span>4.体重</span></p><p><span>5.健身频次</span></p><p><span>6.</span></p>"},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"e2eb33d2d6384dcf9750fe9cb139c0c8",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":320,
+              "height":568}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8de0458e3d45466d8f4f458c6a050969",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":320,
+                  "height":568}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 我的劲态（二维码）",
+                      "target":{
+                        "targetType":"page",
+                        "url":"我的劲态（二维码）.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/我的健身数据/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "e2eb33d2d6384dcf9750fe9cb139c0c8":{
+      "scriptId":"u0"},
+    "8de0458e3d45466d8f4f458c6a050969":{
+      "scriptId":"u1"}}});

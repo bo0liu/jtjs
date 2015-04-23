@@ -1,0 +1,240 @@
+﻿$axure.loadCurrentPage({
+  "url":"我的交易.html",
+  "generationDate":new Date(1429794607282.1),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"81fb172a6326473f87468e1b4acb9e8b",
+    "type":"Axure:Page",
+    "name":"我的交易",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"fc9d200af1184fae88a3e7545c120e30",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":320,
+              "height":568}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"71a46c43c3eb46cd8edf125132630d08",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":320,
+                  "height":568}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 我的劲态（二维码）",
+                      "target":{
+                        "targetType":"page",
+                        "url":"我的劲态（二维码）.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/我的交易/u0.png"}},
+{
+          "id":"f5d2062fdfed417ebf7828848d5d62c0",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":15,
+              "y":36},
+            "size":{
+              "width":22,
+              "height":12}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"5b1ad43411fc45a3b12665a67def1522",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":15,
+                  "y":36},
+                "size":{
+                  "width":22,
+                  "height":12}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 左侧边栏",
+                      "target":{
+                        "targetType":"page",
+                        "url":"左侧边栏.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/左侧边栏/u2.png"}},
+{
+          "id":"5f156500caa746989a997e52a95522cb",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "opacity":"0",
+            "location":{
+              "x":162,
+              "y":287},
+            "size":{
+              "width":120,
+              "height":28}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"676f9eb717614874a615386f5ddd623f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "opacity":"0",
+                "location":{
+                  "x":162,
+                  "y":287},
+                "size":{
+                  "width":120,
+                  "height":28}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 我的评价",
+                      "target":{
+                        "targetType":"page",
+                        "url":"我的评价.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"e59a76a36e844d40a225d847540b644e",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "opacity":"0",
+            "location":{
+              "x":277,
+              "y":25},
+            "size":{
+              "width":43,
+              "height":35}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"277309e4407a46afb66857a41debe3c1",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "opacity":"0",
+                "location":{
+                  "x":277,
+                  "y":25},
+                "size":{
+                  "width":43,
+                  "height":35}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 我的健身数据",
+                      "target":{
+                        "targetType":"page",
+                        "url":"我的健身数据.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "fc9d200af1184fae88a3e7545c120e30":{
+      "scriptId":"u0"},
+    "71a46c43c3eb46cd8edf125132630d08":{
+      "scriptId":"u1"},
+    "f5d2062fdfed417ebf7828848d5d62c0":{
+      "scriptId":"u2"},
+    "5b1ad43411fc45a3b12665a67def1522":{
+      "scriptId":"u3"},
+    "5f156500caa746989a997e52a95522cb":{
+      "scriptId":"u4"},
+    "676f9eb717614874a615386f5ddd623f":{
+      "scriptId":"u5"},
+    "e59a76a36e844d40a225d847540b644e":{
+      "scriptId":"u6"},
+    "277309e4407a46afb66857a41debe3c1":{
+      "scriptId":"u7"}}});

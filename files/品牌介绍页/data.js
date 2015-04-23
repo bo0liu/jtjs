@@ -1,0 +1,80 @@
+﻿$axure.loadCurrentPage({
+  "url":"品牌介绍页.html",
+  "generationDate":new Date(1429794605924.02),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"4cfae8fae3d44b4f8513453ccd9ec05f",
+    "type":"Axure:Page",
+    "name":"品牌介绍页",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"edc00f94514548a2bc54898f20a7fac3",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":320,
+              "height":568}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"77e1f1c5705f486688a3b6c1ad00e5cb",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":320,
+                  "height":568}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 健身机构",
+                      "target":{
+                        "targetType":"page",
+                        "url":"健身机构.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/品牌介绍页/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "edc00f94514548a2bc54898f20a7fac3":{
+      "scriptId":"u0"},
+    "77e1f1c5705f486688a3b6c1ad00e5cb":{
+      "scriptId":"u1"}}});

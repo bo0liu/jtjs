@@ -1,0 +1,154 @@
+﻿$axure.loadCurrentPage({
+  "url":"回应详情页面.html",
+  "generationDate":new Date(1429794605575),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"3be23d1354874b0990c7777ca0fcea81",
+    "type":"Axure:Page",
+    "name":"回应详情页面",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"9d144afd505842a885303048d458e35c",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":320,
+              "height":568}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3ea69f6ce1564ffab8252aeec7a602f3",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":320,
+                  "height":568}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/发起购买请求页/u0.png"}},
+{
+          "id":"e01074bb34494ba094eb20c0fcc79fe5",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":100,
+              "y":0},
+            "size":{
+              "width":216,
+              "height":568}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"def1fa26bd454694a44a052b379e3973",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":100,
+                  "y":0},
+                "size":{
+                  "width":216,
+                  "height":568}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/回应详情页面/u2.png"}},
+{
+          "id":"252ab60c5cbf47fa8b995900fd4f40b3",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":26,
+              "y":198},
+            "size":{
+              "width":268,
+              "height":173}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8aa8aa6533b14194835cc5ede6663ba3",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":26,
+                  "y":198},
+                "size":{
+                  "width":268,
+                  "height":173}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 回应求购信息页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"回应求购信息页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/回应详情页面/u4.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "9d144afd505842a885303048d458e35c":{
+      "scriptId":"u0"},
+    "3ea69f6ce1564ffab8252aeec7a602f3":{
+      "scriptId":"u1"},
+    "e01074bb34494ba094eb20c0fcc79fe5":{
+      "scriptId":"u2"},
+    "def1fa26bd454694a44a052b379e3973":{
+      "scriptId":"u3"},
+    "252ab60c5cbf47fa8b995900fd4f40b3":{
+      "scriptId":"u4"},
+    "8aa8aa6533b14194835cc5ede6663ba3":{
+      "scriptId":"u5"}}});

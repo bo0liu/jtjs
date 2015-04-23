@@ -1,0 +1,176 @@
+﻿$axure.loadCurrentPage({
+  "url":"地图导航页.html",
+  "generationDate":new Date(1429794605221.98),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"9279bc512c8543799c0c7f2a5339a985",
+    "type":"Axure:Page",
+    "name":"地图导航页",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"2f2331476e6340dda47d42786795fb9d",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":320,
+              "height":568}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"4139ebacf1584771b45d2542c43460b1",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":320,
+                  "height":568}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/地图导航页/u0.jpg"}},
+{
+          "id":"190b9be6241c4fca8706f7b3dffcc73a",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":15,
+              "y":500},
+            "size":{
+              "width":55,
+              "height":55}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3b229bff0ad4493890cfd9b65aad45f6",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":15,
+                  "y":500},
+                "size":{
+                  "width":55,
+                  "height":55}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/地图导航页/u2.png"}},
+{
+          "id":"f935e9ec111740b383c0238f36ea9af8",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF,
+              "opacity":1},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFCCCCCC},
+            "location":{
+              "x":18,
+              "y":26},
+            "size":{
+              "width":42,
+              "height":24},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF},
+            "cornerRadiusTopLeft":"3"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"273d8b4ace3242208f404a6f33473c00",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF,
+                  "opacity":1},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC},
+                "location":{
+                  "x":18,
+                  "y":26},
+                "size":{
+                  "width":42,
+                  "height":24},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF},
+                "cornerRadiusTopLeft":"3"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 首页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"首页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/地图导航页/u4.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "2f2331476e6340dda47d42786795fb9d":{
+      "scriptId":"u0"},
+    "4139ebacf1584771b45d2542c43460b1":{
+      "scriptId":"u1"},
+    "190b9be6241c4fca8706f7b3dffcc73a":{
+      "scriptId":"u2"},
+    "3b229bff0ad4493890cfd9b65aad45f6":{
+      "scriptId":"u3"},
+    "f935e9ec111740b383c0238f36ea9af8":{
+      "scriptId":"u4"},
+    "273d8b4ace3242208f404a6f33473c00":{
+      "scriptId":"u5"}}});

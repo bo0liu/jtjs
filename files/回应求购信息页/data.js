@@ -1,0 +1,117 @@
+﻿$axure.loadCurrentPage({
+  "url":"回应求购信息页.html",
+  "generationDate":new Date(1429794605611),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"02b7184ef7984c1da96dc000eab9fedc",
+    "type":"Axure:Page",
+    "name":"回应求购信息页",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"f93e656eb0824d33947453add1d23f9a",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":320,
+              "height":568}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"95ab20c2222f42379a5c72565e458508",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":320,
+                  "height":568}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/卖时间/u0.png"}},
+{
+          "id":"032bb4fc37ae4f8295247d9d261db4e5",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":26,
+              "y":197.5},
+            "size":{
+              "width":268,
+              "height":173}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"12eb14b6dbbc4e87b9e41402a7cb5533",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":26,
+                  "y":197.5},
+                "size":{
+                  "width":268,
+                  "height":173}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 卖时间",
+                      "target":{
+                        "targetType":"page",
+                        "url":"卖时间.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/回应求购信息页/u2.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "f93e656eb0824d33947453add1d23f9a":{
+      "scriptId":"u0"},
+    "95ab20c2222f42379a5c72565e458508":{
+      "scriptId":"u1"},
+    "032bb4fc37ae4f8295247d9d261db4e5":{
+      "scriptId":"u2"},
+    "12eb14b6dbbc4e87b9e41402a7cb5533":{
+      "scriptId":"u3"}}});
